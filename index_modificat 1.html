@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Fries - Fast Food</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ff8c00;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 30px 20px;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    p.description {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .category-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px 0;
+    }
+    .category-buttons button {
+      background-color: white;
+      color: #ff8c00;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .subcategory {
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .subcategory h3 {
+      margin-top: 30px;
+    }
+    .subcategory ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .subcategory li {
+      margin: 5px 0;
+    }
+    .contact {
+      margin-top: 50px;
+      padding: 30px;
+      background-color: #222;
+      color: white;
+    }
+    .call-button {
+      background-color: #fff;
+      color: #ff8c00;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Golden_Fries_transparent.png" alt="Golden Fries Logo">
+  <p class="description">
+    La Golden Fries, cartofii prăjiți sunt doar începutul! Savurează cele mai crocante delicii alături de burgeri suculenți, paste aromate, panini proaspeți și pulpe fragede. Gustul perfect te așteaptă!
+  </p>
+</header>
+
+<div class="category-buttons">
+  <button>Burgeri</button>
+  <button>Panino</button>
+  <button>Facaccia</button>
+  <button>Desserturi</button>
+  <button>Salate</button>
+  <button>Paste</button>
+</div>
+
+<section class="subcategory">
+  <h3>Burgeri</h3>
+  <ul>
+    <li>Triplu Boss Burger</li>
+    <li>Dublu Hamburger</li>
+    <li>Dublu cheseburger</li>
+    <li>Crispy Burger</li>
+  </ul>
+
+  <h3>Panino</h3>
+  <ul>
+    <li>Panino Milano</li>
+    <li>Panino Mortadella</li>
+    <li>Panino Prosciutto Cotto</li>
+    <li>Panino Salame</li>
+  </ul>
+
+  <h3>Focaccia</h3>
+  <ul>
+    <li>Focaccia Prosciutto Cotto</li>
+    <li>Focaccia Mortadella</li>
+    <li>Focaccia Salame Napoli</li>
+    <li>Focaccia Porchetta</li>
+  </ul>
+
+  <h3>Desserturi</h3>
+  <ul>
+    <li>Croissant Fistic</li>
+    <li>Croissant Nutella</li>
+    <li>Panino Bomba Calorica</li>
+  </ul>
+
+  <h3>Salate</h3>
+  <ul>
+    <li>Salata Crispy</li>
+    <li>Salata Pollo</li>
+  </ul>
+
+  <h3>Paste</h3>
+  <ul>
+    <li>Tagliatelle/Penne Ragu</li>
+    <li>Tagliatelle/Penne Carbonara</li>
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Ne găsești în orașul tău sau sună-ne direct:</p>
+  <button class="call-button" onclick="window.location.href='tel:0123456789'">Sună acum</button>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen loading="lazy"></iframe>
+</section>
+
+</body>
+</html>
